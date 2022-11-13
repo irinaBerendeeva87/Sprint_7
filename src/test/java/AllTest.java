@@ -1,7 +1,7 @@
-import courierTest.CourierNegativeTest;
-import courierTest.CourierPositiveTest;
-import courierTest.PCourierNegativeLoginTest;
-import courierTest.PCourierNegativeTest;
+import courier.CourierNegativeTest;
+import courier.CourierPositiveTest;
+import courier.PCourierNegativeLoginTest;
+import courier.PCourierNegativeTest;
 import order.OrderListTest;
 import order.POrderTest;
 import org.junit.runner.RunWith;

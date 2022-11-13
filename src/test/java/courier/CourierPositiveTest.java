@@ -1,4 +1,4 @@
-package courierTest;
+package courier;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.example.courier.Courier;
@@ -8,11 +8,13 @@ import org.example.courier.Credentials;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
 import static org.apache.http.HttpStatus.SC_CREATED;
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.notNullValue;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class CourierPositiveTest {
     private CourierClient courierClient;
@@ -22,7 +24,7 @@ public class CourierPositiveTest {
    @Before
     public void setUp() {
        courierClient = new CourierClient();
-       courier = CourierGenerator.getDefault();
+       courier = CourierGenerator.defaultCourier;
     }
 
     @After
@@ -39,7 +41,7 @@ public class CourierPositiveTest {
        int actualStatusCode = responseCreate.extract().statusCode();
        boolean isCourierCreated = responseCreate.extract().path("ok");
        assertEquals("Status Code incorrect",actualStatusCode, SC_CREATED);
-       assertEquals("Expected true",true, isCourierCreated);
+       assertTrue("Expected true",isCourierCreated);
     }
 
     @Test
