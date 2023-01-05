@@ -1,4 +1,5 @@
 **API Yandex.Samokat**
+
 As part of the training, I tested the API of the Yandex.Samokat training service using the JUnit 4, RestAssured frameworks.
 The project uses Java 11 and used the Maven build system. And the Allure report was generated.
  
