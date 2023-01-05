@@ -16,4 +16,4 @@ If you want to work with the library locally:
 1. Fork this repository and clone your version of the report. 
 2. Run AllTest.java
 3. Generate a report via command 
-allure serve target/surefire-reports/
+***allure serve target/surefire-reports/***
