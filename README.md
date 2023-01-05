@@ -11,7 +11,7 @@ The project uses Java 11 and used the Maven build system. And the Allure report 
 
 📁**Documentation**📁 
 
-You can find the documentation at qa-scooter.praktikum-services.ru/docs/
+You can find the documentation at [qa-scooter.praktikum-services.ru/docs/](https://qa-scooter.praktikum-services.ru/docs/)
 
 🔖**Instructions how to run**🔖
 
