@@ -13,7 +13,7 @@ The project uses Java 11 and used the Maven build system. And the Allure report 
 
 You can find the documentation at qa-scooter.praktikum-services.ru/docs/
 
-🔖**Instructions how to run:**🔖
+🔖**Instructions how to run**🔖
 
 1. Clone this repo and clone your version of the report. 
 2. Run AllTest.java
